@@ -1,5 +1,5 @@
 import styles from '../styles/navBar.module.scss';
-import Cart from './Cart';
+import Cart from './CartWidget';
 import AutoEquipe from '../assets/AutoEquipe.png';
 import { BotonGenerico } from './BotonGenerico';
 
