@@ -1,0 +1,50 @@
+@use '../styles/_variables.scss' as *;
+@use 'sass:color';
+
+.boton{
+    border-radius: 0.5rem;
+    font-weight:600;
+    font-size:0.9rem;
+    padding: 0.5rem 1rem;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+
+
+    &:disabled{
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+}
+
+.botonPrimario{
+    background-color: $autoequipe-blue;
+    color: white;
+
+    &:hover:not(:disabled){
+        background-color: color.adjust($autoequipe-blue, $lightness: -10%);
+    }
+}
+
+.botonSecundario{
+    background-color: $autoequipe-yellow;
+    color: white;
+
+    &:hover:not(:disabled){
+        background-color: color.adjust($autoequipe-yellow, $lightness: -10%);
+    }
+}
+
+.botonDanger{
+    background-color: #dc3545;
+    color: white;
+
+    &:hover:not(:disabled){
+        background-color: color.adjust(#dc3545, $lightness: -10%);
+    }
+}
