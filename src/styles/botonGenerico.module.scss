@@ -23,28 +23,34 @@
 }
 
 .botonPrimario{
-    background-color: $autoequipe-blue;
-    color: white;
+    border: solid 1px $autoequipe-blue;
+    background-color: white;
+    color: $autoequipe-blue;
 
     &:hover:not(:disabled){
         background-color: color.adjust($autoequipe-blue, $lightness: -10%);
+        color: white;
     }
 }
 
 .botonSecundario{
-    background-color: $autoequipe-yellow;
-    color: white;
+    border: solid 1px $autoequipe-yellow;
+    background-color: white;
+    color: $autoequipe-yellow;
 
     &:hover:not(:disabled){
         background-color: color.adjust($autoequipe-yellow, $lightness: -10%);
+        color: white;
     }
 }
 
 .botonDanger{
-    background-color: #dc3545;
-    color: white;
+    border: solid 1px #dc3545;
+    background-color: white;
+    color: #dc3545;
 
     &:hover:not(:disabled){
         background-color: color.adjust(#dc3545, $lightness: -10%);
+        color: white;
     }
 }
