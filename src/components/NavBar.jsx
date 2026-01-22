@@ -11,7 +11,7 @@ const NavBar = () => {
             <BotonGenerico href="#" tipo="primario">Productos</BotonGenerico>
             <BotonGenerico href="#" tipo="primario">Sobre Nosotros</BotonGenerico>
             <BotonGenerico href="#" tipo="primario">Contacto</BotonGenerico>
-            <Cart />
+            <BotonGenerico href="#" tipo="carrito"><Cart /></BotonGenerico>
         </nav>
     );
 }
