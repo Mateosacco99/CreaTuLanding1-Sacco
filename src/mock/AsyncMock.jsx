@@ -6,7 +6,7 @@ const productos = [
         stock: 10,
         precio: 100,
         categoria: 'categoria 1',
-        imagen: 'url de imagenn'
+        imagen: '../../public/img/Primacy-4-Unidad.png'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const productos = [
         stock: 10,
         precio: 100,
         categoria: 'categoria 2',
-        imagen: 'url de imagen'
+        imagen: '../../public/img/Primacy-4-Unidad.png'
     },
     {
         id: 3,
@@ -24,6 +24,6 @@ const productos = [
         stock: 10,
         precio: 100,
         categoria: 'categoria 3',
-        imagen: 'url de imagen'
+        imagen: '../../public/img/Primacy-4-Unidad.png'
     },
 ];
