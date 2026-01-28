@@ -27,3 +27,19 @@ const productos = [
         imagen: '../../public/img/Primacy-4-Unidad.png'
     },
 ];
+
+let error = false;
+
+export const getProductos = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+
+            if (error) {
+                reject('Error al obtener los productos ');
+            } else {
+                resolve(productos);
+            }
+
+        }, 3000)
+    })
+};
